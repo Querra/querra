@@ -46,8 +46,6 @@ public class Index
         null;
   }
 
-  /*
-
   Object onActionFromLearnMore()
   {
     about.setLearn("LearnMore");
@@ -69,7 +67,6 @@ public class Index
     ajaxResponseRenderer.addRender("middlezone", block);
   }
 
-   */
 
   public Date getCurrentTime()
   {
