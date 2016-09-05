@@ -7,16 +7,25 @@
     <!-- Main hero unit for a primary marketing message or call to action -->
     <div class="hero-unit">
         <p>
-        <div class="row">
-        	<div class="col-md-3">
-            	<img src="${asset:context:images/murphy.png}"
-                 	alt="${message:greeting}" title="${message:greeting}"
-                 	width="300"
-                 	height="200"/>
-        	</div>
-            <div class="col-md-9" align="center">
-                 <h1>Querra Industries</h1>     
-        	</div>
+        	<div class="row">
+        		<div class="col-md-3">
+            		<img src="${asset:context:images/querra_logo.png}"
+                 		alt="${message:greeting}" title="${message:greeting}"
+                 		width="200"
+                 		height="200"/>
+        		</div>
+            	<div class="col-md-9">
+            		<div class="row">
+            			<br/>
+            			<div class="col-md-3">
+                 			<div style="color:#7033be; font-size:130px; font-family:Impact, Charcoal, sans-serif; margin-left:-90px; margin-top:14px">uerra</div>
+            			</div>
+            			<div class="col-md-1" style="align:start">
+            			<br/>
+            				<div style="color:#7033be; font-size:30px; font-family:Impact, Charcoal, sans-serif; margin-left:-10px; margin-top:20px">&trade;</div>
+            			</div>
+        			</div>
+        		</div>
         	</div>
         </p>
         <h3>${message:greeting}</h3>
