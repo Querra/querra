@@ -12,9 +12,9 @@
     <link rel="shortcut icon" href="${asset:context:images/querra_logo.png}"/>
 </head>
 
-<body>
+<body style="background:#322632; color:#ffeaff; font-family:Trebuchet MS, Helvetica, sans-serif">
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" style="background:#221622" role="navigation">
     <div class="container">
 	    <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <t:pagelink page="index" class="navbar-brand">app</t:pagelink>
+            <t:pagelink page="index" class="navbar-brand">
+				<img src="${asset:context:images/querra_lettering.png}"
+                 		alt="${message:greeting}" title="${message:greeting}"
+                 		width="105"
+                 		height="35"
+                 		style="margin-top:-7px; margin-right:20px"/>
+			</t:pagelink>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
